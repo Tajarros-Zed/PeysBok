@@ -23,7 +23,7 @@
     font-size: 50px;
     font-weight: 800;
     display: inline-block;
-    color: #3e44ffeb;
+    color: #199FFF;
    
 }
 
@@ -90,8 +90,8 @@
 .logins {
     padding: 3%;
     border-radius: 7px;
-    border: 1px solid #3e44ffeb;
-    background-color: #3e44ffeb;
+    border: 1px solid #199FFF;
+    background-color: #199FFF;
     position: absolute;
     left: 4%;
     top: 10em;
@@ -103,7 +103,7 @@
 }
 
 .logins:hover {
-    background-color: #3e44ff;
+    background-color: #188DE0;
 }
 
 .forgot {
@@ -111,9 +111,9 @@
     font-size: 13px;
     font-weight: 400;
     position: absolute;
-    left: 36%;
+    left: 34%;
     top: 17em;
-    color: #3e44ff;
+    color: #199FFF;
 }
 
 .forgot:hover {
@@ -126,12 +126,16 @@
     border: 1px solid #46C821;
     background-color: #46C821;
     position: absolute;
-    left: 26%;
+    left: 24%;
     top: 17.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: white;
+}
+
+.new-account:hover {
+    background-color: #15BC1C;
 }
 
 .create {
@@ -141,7 +145,7 @@
     color: #000;
     position: absolute;
     top: 28.5em;
-    left: 4em;
+    left: 3em;
     display: block;
 }
 
@@ -155,7 +159,7 @@
     font-size: 13px;
     color: #000;
     position: absolute;
-    left: 11.5em;
+    left: 10.5em;
     top: 28.5em;
     display: block;
 }

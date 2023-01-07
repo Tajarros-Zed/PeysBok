@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+}
+/* *********************    TOP CONTAINER   ****************** */
+#top-container {
+    background-color: #ECECEC;
+    width: 100%;
+    height: 15em;
+}
+
+.top-header {
+    background-color: #ECECEC;
+    width: 80%;
+    height: 10em;
+    position: absolute;
+    left: 10%;
+    top: 2em;
+    text-align: center;
+}
+
+.top-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    display: inline-block;
+    color: #3e44ffeb;
+   
+}
+
+.top-header p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* *********************    MID CONTAINER   ****************** */
+#mid-container {
+    background-color: #ECECEC;
+    width: 100%;
+    height: 27em;
+}
+
+.mid-login {
+    background-color: #FFF;
+    border-radius: 2%;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.478);
+    height: 22em;
+    width: 85%;
+    position: absolute;
+    left: 7%;
+    top: 14em;
+}
+
+.username {
+    padding: 3%;
+    border-radius: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.478);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    left: 4%;
+    top: 1.2em;
+    width: 85%;
+}
+
+.username:hover {
+    border: 1px solid rgba(128, 128, 128, 0.478);
+    box-shadow: 0 0 2px #0008ff;
+}
+
+.passwords {
+    padding: 3%;
+    border-radius: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.478);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    left: 4%;
+    top: 5.5em;
+    width: 85%;
+}
+
+.passwords:hover {
+    border: 1px solid rgba(128, 128, 128, 0.478);
+    box-shadow: 0 0 2px #0008ff;
+}
+
+.logins {
+    padding: 3%;
+    border-radius: 7px;
+    border: 1px solid #3e44ffeb;
+    background-color: #3e44ffeb;
+    position: absolute;
+    left: 4%;
+    top: 10em;
+    width: 91.3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.logins:hover {
+    background-color: #3e44ff;
+}
+
+.forgot {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    left: 36%;
+    top: 17em;
+    color: #3e44ff;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.new-account {
+    padding: 3%;
+    border-radius: 7px;
+    border: 1px solid #46C821;
+    background-color: #46C821;
+    position: absolute;
+    left: 26%;
+    top: 17.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.create {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000;
+    position: absolute;
+    top: 28.5em;
+    left: 4em;
+    display: block;
+}
+
+.create:hover {
+    text-decoration: underline;
+}
+
+.create-two {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    position: absolute;
+    left: 11.5em;
+    top: 28.5em;
+    display: block;
+}
+
+/* *********************    BOTTOM CONTAINER   ****************** */
+#bottom-container {
+    background-color: #FFF;
+    width: 100%;
+    height: 4em;
+    text-align: center;
+}
+
+#bottom-container span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    top: 1.5em;
+}
+
+#bottom-container span:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 550px) {
+   #mid-container {
+        height: 30em;
+   }
+
+    .top-header {
+        background-color: #ECECEC;
+        width: 30%;
+        position: absolute;
+        top: 10em;
+        text-align: left;
+    }
+
+
+    .mid-login {
+        width: 30%;
+        position: absolute;
+        left: 55%;
+        top: 8em;
+    }
+}
+
